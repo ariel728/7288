@@ -1,0 +1,7 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url') ?>/js/jquery.autoKana.js"></script>
+<script>
+$(document).ready(function(){
+$.fn.autoKana('#name', '#kana', {katakana:true});
+});
+</script>
